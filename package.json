@@ -2,7 +2,7 @@
   "name": "im-switcher",
   "displayName": "im-switcher",
   "description": "Switches IME ",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "icon": "icon.png",
   "author": {
     "name": "liyincode"
@@ -13,7 +13,7 @@
     "url": "https://github.com/liyincode/im-switcher"
   },
   "engines": {
-    "vscode": "^1.98.0"
+    "vscode": "^1.50.0"
   },
   "categories": [
     "Other"
@@ -61,7 +61,7 @@
     "test": "vscode-test"
   },
   "devDependencies": {
-    "@types/vscode": "^1.98.0",
+    "@types/vscode": "^1.50.0",
     "@types/mocha": "^10.0.10",
     "@types/node": "20.x",
     "@typescript-eslint/eslint-plugin": "^8.28.0",
