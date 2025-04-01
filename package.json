@@ -3,9 +3,11 @@
   "displayName": "im-switcher",
   "description": "Switches IME ",
   "version": "0.0.1",
+  "icon": "icon.png",
   "author": {
     "name": "liyincode"
   },
+  "publisher": "liyincode",
   "repository": {
     "type": "git",
     "url": "https://github.com/liyincode/im-switcher"

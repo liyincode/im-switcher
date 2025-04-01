@@ -1,8 +1,10 @@
 # VSCode Input Method Switcher
 
+<img src="./icon.png" alt="VSCode Input Method Switcher icon" width="128" height="128">
+
 A simple yet practical VSCode extension that automatically switches to English input method when VSCode window gains focus.
 
-[中文](README.zh-CN.md)
+[中文](./README.zh-CN.md)
 
 ## Features
 

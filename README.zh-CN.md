@@ -1,5 +1,7 @@
 # VSCode Input Method Switcher
 
+<img src="./icon.png" alt="VSCode Input Method Switcher icon" width="128" height="128">
+
 一个简单而实用的 VSCode 扩展，自动在 VSCode 窗口获得焦点时切换到英文输入法。
 
 [English](./README.md)
