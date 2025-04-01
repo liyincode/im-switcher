@@ -1,0 +1,68 @@
+{
+  "name": "im-switcher",
+  "displayName": "im-switcher",
+  "description": "Switches IME ",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.98.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "onStartupFinished"
+  ],
+  "main": "./dist/extension.js",
+  "contributes": {
+    "configuration": {
+      "title": "Input Method Switcher",
+      "properties": {
+        "imSwitch.englishIME": {
+          "type": "string",
+          "default": "",
+          "description": "English IME identifier (e.g., 'com.apple.keylayout.ABC' for macOS, '1033' for Windows)."
+        },
+        "imSwitch.obtainIMCmd": {
+          "type": "string",
+          "default": "im-select",
+          "description": "Command to get current input method."
+        },
+        "imSwitch.switchIMCmd": {
+          "type": "string",
+          "default": "im-select {im}",
+          "description": "Command to switch input method. Use {im} as placeholder for the input method identifier."
+        },
+        "imSwitch.debugLog": {
+          "type": "boolean",
+          "default": false,
+          "description": "Enable debug logging to output channel."
+        }
+      }
+    }
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run package",
+    "compile": "webpack",
+    "watch": "webpack --watch",
+    "package": "webpack --mode production --devtool hidden-source-map",
+    "compile-tests": "tsc -p . --outDir out",
+    "watch-tests": "tsc -p . -w --outDir out",
+    "pretest": "npm run compile-tests && npm run compile && npm run lint",
+    "lint": "eslint src",
+    "test": "vscode-test"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.98.0",
+    "@types/mocha": "^10.0.10",
+    "@types/node": "20.x",
+    "@typescript-eslint/eslint-plugin": "^8.28.0",
+    "@typescript-eslint/parser": "^8.28.0",
+    "eslint": "^9.23.0",
+    "typescript": "^5.8.2",
+    "ts-loader": "^9.5.2",
+    "webpack": "^5.98.0",
+    "webpack-cli": "^6.0.1",
+    "@vscode/test-cli": "^0.0.10",
+    "@vscode/test-electron": "^2.4.1"
+  }
+}
