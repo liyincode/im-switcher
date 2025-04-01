@@ -1,5 +1,7 @@
 # VSCode Input Method Switcher
 
+<img src="./icon.png" alt="VSCode Input Method Switcher icon" width="128" height="128">
+
 <p>   <a href="https://marketplace.visualstudio.com/items?itemName=liyincode.im-switcher"><img src="https://img.shields.io/visual-studio-marketplace/v/liyincode.im-switcher?labelColor=18181B&color=1584FC" alt="Version"></a>   <a href="https://marketplace.visualstudio.com/items?itemName=liyincode.im-switcher"><img src="https://img.shields.io/visual-studio-marketplace/i/liyincode.im-switcher?labelColor=18181B&color=1584FC" alt="Downloads"></a>   <a href="https://github.com/liyincode/im-switcher/blob/main/LICENSE"><img src="https://img.shields.io/github/license/liyincode/im-switcher?labelColor=18181B&color=1584FC" alt="License"></a> </p>
 
 A simple yet practical VSCode extension that automatically switches to English input method when VSCode window gains focus.
