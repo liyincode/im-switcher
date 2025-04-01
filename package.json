@@ -1,7 +1,7 @@
 {
   "name": "im-switcher",
   "displayName": "im-switcher",
-  "description": "Switches IME ",
+  "description": "auto-switches to English input method when focused.",
   "version": "0.0.2",
   "icon": "icon.png",
   "author": {
